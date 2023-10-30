@@ -25,7 +25,9 @@ function App() {
       <input placeholder='Search the movies' value={""}  onChange={()=>{}}/>
       <img src={SearchIcon} alt='search' onClick={()=>{}}/>
      </div>
-     
+      <div className='container'>
+
+      </div>
     </div>
   );
 }
