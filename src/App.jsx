@@ -25,10 +25,12 @@ function App() {
   const response =await fetch(`${API_URL}&s=${title}`);
   const data=await response.json();
 
-  setMovieList(data.Search);}
+  setMovieList(data.Search);
+}
 
  useEffect(()=>{
- searchMovies('Spiderman');
+ searchMovies("movie");
+
   },[]);
 
   return (
